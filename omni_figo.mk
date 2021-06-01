@@ -27,15 +27,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from prague device
-$(call inherit-product, device/huawei/prague/device.mk)
+# Inherit from figo device
+$(call inherit-product, device/huawei/figo/device.mk)
 
 # OmniROM
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_prague
-PRODUCT_DEVICE := prague
+PRODUCT_NAME := omni_figo
+PRODUCT_DEVICE := figo
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := HUAWEI P8 lite 2017
+PRODUCT_MODEL := HUAWEI P Smart 2018
 
